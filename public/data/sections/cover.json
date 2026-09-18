@@ -1,0 +1,271 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "Profile",
+                "title_long_prefix": "IT professional focused on",
+                "title_long": "{{Infrastructure & Systems}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Perfil",
+                "title_long_prefix": "Profesional IT especializado en",
+                "title_long": "{{Infraestructura y Sistemas}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "Profil",
+                "title_long_prefix": "Professionnel IT spécialisé en",
+                "title_long": "{{Infrastructure et Systèmes}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "프로필",
+                "title_long_prefix": "IT 전문가 분야:",
+                "title_long": "{{인프라 및 시스템}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Pekalongan, Indonesia",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "adammuhaimien007@gmail.com",
+                    "link": {"href": "mailto:adammuhaimien007@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "LinkedIn / Adam Muhaimien",
+                    "link": {"href": "https://www.linkedin.com/in/adam-muhaimien-023b2423a/", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about my work..."},
+                "es": {"title": "{{Un poco}} sobre mi trabajo..."},
+                "fr": {"title": "{{Un peu}} sur mon travail..."},
+                "ko": {"title": "저의 {{업무}}에 대해..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m an IT professional with a solid foundation in [[enterprise network infrastructure]], server maintenance, and daily operations. With an Informatics background and experience in JavaScript and basic programming, I enjoy bridging physical hardware with software solutions.</p><p>I have built and deployed a containerized IT Asset Management system using Docker, set up centralized monitoring with LibreNMS, and implemented secure administrative access with JumpServer.</p><p>I am currently pursuing Linux System Administration and Fortinet NSE certifications.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un profesional de IT con experiencia en [[infraestructura de redes empresariales]], mantenimiento de servidores y operaciones diarias. Mi formación en Informática combina JavaScript y programación con experiencia práctica en hardware y sistemas.</p><p>He construido y desplegado un sistema de gestión de activos IT con Docker, monitorización centralizada con LibreNMS y acceso administrativo seguro con JumpServer.</p><p>Actualmente estoy preparando certificaciones de Administración de Sistemas Linux y Fortinet NSE.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis un professionnel IT avec une solide expérience en [[infrastructure réseau d'entreprise]], maintenance des serveurs et opérations quotidiennes. Ma formation en informatique s'accompagne d'une expérience pratique en matériel, JavaScript et programmation.</p><p>J'ai créé et déployé un système de gestion des actifs IT avec Docker, une supervision centralisée avec LibreNMS et un accès administratif sécurisé avec JumpServer.</p><p>Je prépare actuellement les certifications Administration Système Linux et Fortinet NSE.</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 [[기업 네트워크 인프라]], 서버 유지보수 및 일상 운영에 강점을 가진 IT 전문가입니다. 정보학 전공을 바탕으로 하드웨어와 소프트웨어 솔루션을 연결하는 실무 경험을 쌓았습니다.</p><p>Docker 기반 IT 자산 관리 시스템, LibreNMS 중앙 모니터링, JumpServer 보안 관리 시스템을 직접 구축하고 배포했습니다.</p><p>현재 Linux 시스템 관리 및 Fortinet NSE 자격증을 준비하고 있습니다.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Professional {{interests}}"},
+                "es": {"title": "Intereses {{profesionales}}"},
+                "fr": {"title": "Intérêts {{professionnels}}"},
+                "ko": {"title": "전문 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-linux",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Linux}} System Administration",
+                            "text": "Developing skills in Linux server administration, hardening, troubleshooting, and service management."
+                        },
+                        "es": {
+                            "title": "Edición de video con {{AI}}",
+                            "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        },
+                        "fr": {
+                            "title": "Édition vidéo avec {{IA}}",
+                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        },
+                        "ko": {
+                            "title": "{{AI}} 비디오 편집",
+                            "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{DevOps}} & Containerization",
+                            "text": "Exploring Docker, deployment workflows, monitoring, automation, and infrastructure as code."
+                        },
+                        "es": {
+                            "title": "{{Arte}} y Ilustración",
+                            "text": "Practicando arte digital y explorando nuevos estilos."
+                        },
+                        "fr": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        },
+                        "ko": {
+                            "title": "{{예술}} 및 일러스트레이션",
+                            "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Network}} Engineering",
+                            "text": "Exploring enterprise networking, VLANs, TCP/IP, wireless infrastructure, routing, and multi-vendor operations."
+                        },
+                        "es": {
+                            "title": "{{Inversión}} y Finanzas",
+                            "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        },
+                        "fr": {
+                            "title": "{{Investissement}} & Finance",
+                            "text": "Apprendre les bases des actions et des finances personnelles."
+                        },
+                        "ko": {
+                            "title": "{{투자}} 및 재정 관리",
+                            "text": "주식과 개인 재정의 기초 배우기."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Server}} Administration",
+                            "text": "Managing Linux and Windows servers, Active Directory, LDAP, RADIUS, NAS, FTP, and enterprise mail systems."
+                        },
+                        "es": {
+                            "title": "Diseño {{UX}}",
+                            "text": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception {{UX}}",
+                            "text": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "{{UX}} 디자인",
+                            "text": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Cybersecurity}} & Access Control",
+                            "text": "Learning secure administration through JumpServer, Fortinet, firewall management, identity control, and audited access."
+                        },
+                        "es": {
+                            "title": "{{Fotografía}} y Photoshop",
+                            "text": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "{{Photographie}} & Photoshop",
+                            "text": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "{{사진}} 및 포토샵",
+                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-gears",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Infrastructure}} Automation",
+                            "text": "Automating operational tasks and connecting hardware, networks, monitoring, and software solutions."
+                        },
+                        "es": {
+                            "title": "Tocar {{batería}}",
+                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la {{batterie}}",
+                            "text": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "{{드럼}} 연주",
+                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Projects",
+                "title_short_nav": "Projects",
+                "title_long_prefix": "Featured",
+                "title_long": "{{Projects}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Applications",
+                    "category_web": "Web Platforms",
+                    "category_utilities": "Infrastructure & Tools"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_utilities",
+                    "img": "",
+                    "faIcon": "fa-solid fa-boxes-stacked",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {"links": [{"href": "/Adam%20Muhaimien%20-%20IT%20Infrastructure%20%26%20Systems%20Portfolio.pdf", "tooltipString": "open_portfolio_pdf", "faIcon": "fa-solid fa-file-pdf"}], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Containerized IT Asset Management",
+                            "text": "A custom web-based IT Asset Management application engineered and deployed with <b>Docker</b> and <b>PostgreSQL</b> to track more than 1,600 hardware assets, reduce manual entry errors, and improve audit readiness.",
+                            "tags": ["Docker", "PostgreSQL", "Asset Management", "IT Operations"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_utilities",
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {"links": [{"href": "/Adam%20Muhaimien%20-%20IT%20Infrastructure%20%26%20Systems%20Portfolio.pdf", "tooltipString": "open_portfolio_pdf", "faIcon": "fa-solid fa-file-pdf"}], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Centralized Monitoring & Access Control",
+                            "text": "Deployed <b>LibreNMS</b> from scratch for multi-vendor network monitoring and implemented <b>JumpServer</b> for secure, auditable SSH/RDP administrative access.",
+                            "tags": ["LibreNMS", "JumpServer", "Linux", "Network Monitoring", "Access Control"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-file-signature",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {"links": [{"href": "/Adam%20Muhaimien%20-%20IT%20Infrastructure%20%26%20Systems%20Portfolio.pdf", "tooltipString": "open_portfolio_pdf", "faIcon": "fa-solid fa-file-pdf"}], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Administrative Letter Platform",
+                            "text": "A <b>Laravel</b> platform that automates village administrative letter requests and improved processing speed and data accuracy by 40%.",
+                            "tags": ["Laravel", "JavaScript", "Workflow Automation"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-faucet-drip",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {"links": [{"href": "/Adam%20Muhaimien%20-%20IT%20Infrastructure%20%26%20Systems%20Portfolio.pdf", "tooltipString": "open_portfolio_pdf", "faIcon": "fa-solid fa-file-pdf"}], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "PAMSIMAS Community Billing",
+                            "text": "A <b>React.js</b> and <b>Firebase</b> billing system with APIs for community water service payments.",
+                            "tags": ["React.js", "Firebase", "APIs", "Billing"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-building-columns",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {"links": [{"href": "/Adam%20Muhaimien%20-%20IT%20Infrastructure%20%26%20Systems%20Portfolio.pdf", "tooltipString": "open_portfolio_pdf", "faIcon": "fa-solid fa-file-pdf"}], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "ITSNU Campus Website",
+                            "text": "The official campus website developed with <b>React.js</b>, reaching 97% Google Lighthouse performance and SEO scores with 98% visual fidelity to Figma designs.",
+                            "tags": ["React.js", "Figma", "SEO", "Responsive Design"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

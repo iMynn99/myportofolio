@@ -1,0 +1,143 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "My professional",
+                "title_long": "{{Experience}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2026, "month": 8},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{IT Specialist}}",
+                            "province": "Pemalang",
+                            "country": "Indonesia",
+                            "institution": "Stella International Holdings Limited",
+                            "text": "Set up and maintained core network infrastructure, deployed a Docker-based IT Asset Management system, configured LibreNMS monitoring, and implemented JumpServer for secure administrative access.",
+                            "list": [
+                                "Configured Ruijie, H3C, Aruba, and Cisco switches and wireless access points",
+                                "Managed Virtual Desktop environments and Active Directory permissions",
+                                "Integrated Face ID attendance, corporate access control, and MyQ ID-card printing",
+                                "Built and deployed a containerized web-based IT Asset Management application"
+                            ],
+                            "tags": ["Networking", "Docker", "LibreNMS", "JumpServer", "Active Directory"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 7},
+                    "dateEnd": {"year": 2026, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Senior Staff}} - IT Support & Infrastructure",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "Pou Chen Group Indonesia",
+                            "text": "Maintained network, server, storage, security monitoring, and user access systems supporting daily industrial operations.",
+                            "list": [
+                                "Configured core switches, NTP servers, and Ruckus wireless connectivity",
+                                "Monitored network health with LibreNMS and visualized operations with Grafana",
+                                "Managed Active Directory, LDAP, RADIUS, Synology NAS, FTP, and enterprise mail servers",
+                                "Supported NxWitness VMS CCTV infrastructure and compliance for more than 1,600 hardware assets"
+                            ],
+                            "tags": ["LibreNMS", "Grafana", "Active Directory", "LDAP", "RADIUS", "Synology NAS", "NxWitness"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 12},
+                    "dateEnd": {"year": 2025, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-stack Developer}}",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "Freelance",
+                            "text": "Built practical web applications for administrative and community service workflows.",
+                            "list": [
+                                "Engineered a Laravel platform for administrative letter requests, improving accuracy and processing speed by 40%",
+                                "Built a React.js and Firebase billing system with APIs for community water service payments"
+                            ],
+                            "tags": ["Laravel", "React.js", "Firebase", "JavaScript"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 5},
+                    "dateEnd": {"year": 2023, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Front-End Developer}}",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "Team Kreatif ITSNU Pekalongan",
+                            "text": "Developed the official campus website with React.js and translated Figma designs into reusable responsive web components.",
+                            "list": [
+                                "Achieved 97% Google Lighthouse performance and SEO scores",
+                                "Delivered 98% visual fidelity from Figma designs",
+                                "Increased mobile user engagement by 92% during admission periods",
+                                "Awarded Top Performer after improving site loading speed by 15%"
+                            ],
+                            "tags": ["React.js", "Figma", "Responsive Design", "SEO"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 1},
+                    "dateEnd": {"year": 2023, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "{{Web Developer Intern}}",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "CV Putra Pandu Perkasa",
+                            "text": "Built dynamic web interfaces with React.js, integrated Firebase real-time data, and improved front-end delivery for client applications.",
+                            "list": [
+                                "Reached 95% stability for real-time data fetching",
+                                "Resolved 96% of cross-browser UI inconsistencies",
+                                "Improved First Contentful Paint by 90%",
+                                "Created technical documentation and UML/ERD system flowcharts with 97% accuracy"
+                            ],
+                            "tags": ["React.js", "Firebase", "UML", "ERD", "Web Development"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

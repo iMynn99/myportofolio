@@ -1,0 +1,74 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Achievements",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Selected",
+                "title_long": "{{Achievements}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "locales": {"en": {"title": "Leadership & Recognition"}},
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 9},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Cumlaude}} Graduation",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "Institut Teknologi & Sains Nahdlatul Ulama",
+                            "text": "Graduated with Cumlaude distinction from the Bachelor of Informatics program with a 3.54/4.00 GPA."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2023, "month": 12},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Top Performer}} - Team Kreatif ITSNU",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "Team Kreatif ITSNU Pekalongan",
+                            "text": "Recognized as Top Performer after delivering a 15% improvement in website loading speed through code-splitting and asset optimization."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2022, "month": 11},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Head of Events & Sponsorship}}",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "SAGA (ITSNU Esport Organization)",
+                            "text": "Led events and sponsorship initiatives, collaborating with 10+ local SMEs and managing cross-functional teams of 20+ members.",
+                            "list": [
+                                "Secured 95% of targeted event funding and sponsorships",
+                                "Achieved 92% participant satisfaction",
+                                "Increased event reach and campus branding engagement by 90%",
+                                "Maintained a 98% sponsorship deliverable fulfillment rate"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

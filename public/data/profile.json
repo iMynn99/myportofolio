@@ -1,0 +1,57 @@
+{
+    "name": "Adam Muhaimien",
+
+    "profilePictureUrl": "profil.jpg",
+    "resumePdfUrl": "Adam Muhaimien-CV.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Adam Muhaimien",
+            "localized_name_stylized": " [[Adam {{Muhaimien}}]]",
+            "status_message_available_for_freelance": "Open to IT infrastructure and systems engineering opportunities.",
+            "roles": [
+                "IT Specialist",
+                "Systems Administrator",
+                "Network Infrastructure Specialist",
+                "Full-stack Developer"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        },
+        "es": {
+            "status_message_available_for_freelance": "Disponible para oportunidades de infraestructura IT y sistemas.",
+            "roles": [
+                "Especialista IT",
+                "Administrador de Sistemas",
+                "Especialista en Infraestructura de Red",
+                "Desarrollador Full-stack"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Ouvert aux opportunités en infrastructure IT et systèmes.",
+            "roles": [
+                "Spécialiste IT",
+                "Administrateur Systèmes",
+                "Spécialiste Infrastructure Réseau",
+                "Développeur Full-stack"
+            ]
+        },
+        "ko": {
+            "localized_name": "Adam Muhaimien",
+            "localized_name_stylized": "[[Adam {{Muhaimien}}]]",
+            "status_message_available_for_freelance": "IT 인프라 및 시스템 엔지니어링 기회를 찾고 있습니다.",
+            "roles": [
+                "IT 전문가",
+                "시스템 관리자",
+                "네트워크 인프라 전문가",
+                "풀스택 개발자"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}
