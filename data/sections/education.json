@@ -1,0 +1,50 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "My academic",
+                "title_long": "{{Background}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 9},
+                    "dateEnd": {"year": 2024, "month": 9},
+                    "locales": {
+                        "en": {
+                            "title": "{{Bachelor of Informatics}}",
+                            "province": "Pekalongan",
+                            "country": "Indonesia",
+                            "institution": "Institut Teknologi & Sains Nahdlatul Ulama",
+                            "text": "Graduated with Cumlaude distinction and a 3.54/4.00 GPA. Specialized in Software Engineering with a strong focus on web technologies and database systems.",
+                            "list": [
+                                "Software Engineering",
+                                "Web Technologies",
+                                "Database Systems",
+                                "GPA: 3.54/4.00",
+                                "Cumlaude distinction"
+                            ],
+                            "tags": ["Informatics", "Software Engineering", "Web Technologies", "Databases"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
